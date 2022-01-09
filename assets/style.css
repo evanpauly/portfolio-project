@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  top: 0;
+  padding: 20px 35px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+header h1 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+  background: black;
+  color: grey;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+/* HERO STYLES START */
+.hero {
+  background-image: url("./images/hero-image.jpg");
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: left;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/* HERO STYLES END */
+
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: blue;
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 0;
+  width: 50%;
+}
+
+.primary-border {
+  border-color: black;
+}
+
+.secondary-border {
+  border-color: blue;
+}
+/* SECTION TITLE STYLES END */
+
+/* WHAT WE DO STYLES */
+
+.intro p {
+  line-height: 1.7;
+  color: blue;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* WHAT YOU DO STYLES END */
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.projects img {
+  width: 50%;
+}

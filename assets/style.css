@@ -62,7 +62,8 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
-/* HERO STYLES START */
+/*header styles end*/
+
 .hero {
   background-image: url("./images/hero-image.jpg");
   background-size: cover;
@@ -84,9 +85,8 @@ header nav ul li a:hover {
   line-height: 1.2;
 }
 
-/* HERO STYLES END */
+/*hero styles end*/
 
-/* SECTION TITLE STYLES START */
 .section-title {
   font-size: 48px;
   border-bottom: 3px solid;
@@ -94,40 +94,50 @@ header nav ul li a:hover {
   padding-bottom: 20px;
   text-align: left;
   margin: 0;
-  width: 50%;
+  width: 25%;
 }
 
 .primary-border {
   border-color: black;
 }
 
-.secondary-border {
-  border-color: blue;
-}
-/* SECTION TITLE STYLES END */
-
-/* WHAT WE DO STYLES */
-
 .intro p {
   line-height: 1.7;
   color: blue;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  margin-left: auto;
   font-size: 20px;
+  text-align: top, left;
+}
+
+/*projects styles start*/
+
+.projects div {
+  flex-direction: row;
   text-align: left;
 }
 
-/* WHAT YOU DO STYLES END */
-
-.projects {
-  width: 100%;
-  margin: 0 auto;
+.projects img,
+.projects a {
+  width: 50%;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  text-align: left;
+  justify-content: left;
+}
+
+/*projects styles end*/
+
+.text-left {
   text-align: left;
 }
 
-.projects img {
-  width: 50%;
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
 }

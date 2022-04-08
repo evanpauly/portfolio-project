@@ -27,7 +27,7 @@
     <a class="navbar-brand" href="#">Evan Pauly</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-item nav-link active" href="#about-me">About</a>
+          <a class="nav-item nav-link" href="#about-me">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-item nav-link" href="#projects">Projects</a>
@@ -39,79 +39,82 @@
   </nav>
 
   <body>
-
-    <section class="hero">
-      <div class="hero-cta"></div>
-    </section>
-
-    <section id="about-me" class="intro">
-      <div class="flex-row">
-        <h2 class="section-title primary-border">About Me</h2>
+  <section id="about-me" class="container-md">
+    <div class="row">
+      <div>
+        <img src="./assets/images/profile-picture.jpg" class="rounded float left" alt="Me!" />
       </div>
-      <img src="./assets/images/profile-picture.jpg" alt="Me!" />
-      <div class="flex-row">
+    <div class="col align-content-start">
+        <h2>About Me</h2>
         <p>This is where I will write about myself.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="projects">
-      <div class="flex-row">
-        <h2 class="section-title primary-border">Projects</h2>
-      </div>
+  <section id="projects">
+    <div class="flex-row">
+      <h2 class="section-title primary-border">Projects</h2>
+    </div>
 
-      <div class="projects">
-        <article class="project">
-          <div class="project-name">
-            <h3>Book Search</h3>
-          </div>
-          <a href="https://evanpauly.github.io/Group-Project-1/" target="_blank"
-            ><img
-              src="./assets/images/project-screenshot.png"
-              alt="Book Search Front Page"
-          /></a>
-        </article>
+    <div class="projects">
+      <article class="project">
+        <div class="project-name">
+          <h3>Book Search</h3>
+        </div>
+        <a href="https://evanpauly.github.io/Group-Project-1/" target="_blank"
+          ><img
+            src="./assets/images/project-screenshot.png"
+            alt="Book Search Front Page"
+        /></a>
+      </article>
 
-      <div class="projects">
-        <article class="project">
-          <div class="project-name">
-            <h3>Run Buddy</h3>
-          </div>
-          <a href="https://evanpauly.github.io/run-buddy" target="_blank"
-            ><img
-              src="./assets/images/run-buddy-screenshot.png"
-              alt="Run Buddy Front Page"
-          /></a>
-        </article>
+    <div class="projects">
+      <article class="project">
+        <div class="project-name">
+          <h3>Run Buddy</h3>
+        </div>
+        <a href="https://evanpauly.github.io/run-buddy" target="_blank"
+          ><img
+            src="./assets/images/run-buddy-screenshot.png"
+            alt="Run Buddy Front Page"
+        /></a>
+      </article>
 
-        <article class="project">
-          <div class="project-name">
-            <h3>Placeholder</h3>
-          </div>
-          <a href="https://placeholder.com"
-            ><img
-              src="https://via.placeholder.com/25"
-              height="250px"
-              width="250px"
-          /></a>
-        </article>
-      </div>
-    </section>
+      <article class="project">
+        <div class="project-name">
+          <h3>Placeholder</h3>
+        </div>
+        <a href="https://placeholder.com"
+          ><img
+            src="https://via.placeholder.com/25"
+            height="250px"
+            width="250px"
+        /></a>
+      </article>
+    </div>
+  </section>
 
-    <section id="contact-information" class="contact">
-      <div class="flex-row">
-        <h2 class="section-title primary-border">Contact Information</h2>
-      </div>
-      <div class="flex-row">
-        <p>
-          Email: <a href="evanpauly@hotmail.com">evanpauly@hotmail.com</a><br />
-          Phone: 555-555-5555<br />
-          LinkedIn:
-          <a href="evan-pauly-323b5a171"
-            >www.linkedin.com/in/evan-pauly-323b5a171</a
-          ><br />
-          GitHub:
+    <footer class="row justify-content-center bg-dark">
+      <div class="col">
+        <p class="lead text-white">
+          Email: <a href="evanpauly@hotmail.com">evanpauly@hotmail.com</a>
         </p>
       </div>
-    </section>
+      <div class="col">
+        <p class="lead text-white">
+          Phone: 555-555-5555
+        </p>
+      </div>
+      <div class="col">
+        <p class="lead text-white">
+          LinkedIn:<a href="evan-pauly-323b5a171">www.linkedin.com/in/evan-pauly-323b5a171</a>
+        </p>
+      </div>
+      <div class="col">
+        <p class="lead text-white">
+          GitHub:<a href="https://github.com/evanpauly">https://github.com/evanpauly</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
